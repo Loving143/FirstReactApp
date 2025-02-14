@@ -12,9 +12,7 @@ const UseStateObject = () => {
     const changeObject = ()=>{
         setMyObject(
             {
-                myName:"Loving Prateek",
-                myAge:"56",
-                degree:"CSE"
+              ...myObject,  myName:"Loving Prateek",
             }
         )
     }
